@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background-color:#4a92db;}
+	
+#contenedor{
+	background-color:#FFF;
+	width:950px;
+	font-family:calibri;
+	padding:10px;
+	margin:auto;}
+	
+#header{
+	width:920px;
+	font-family:calibri;	
+	padding:10px;}
+	
+#logo{
+	width: 450px;
+	padding:10px;
+	}
+	
+#informacion{
+	font-family:calibri;
+	padding:10px;	
+	margin-top:-176px;
+	float:left;
+	margin-left:600px;
+	}
+
+#imagen{
+	width:930px;
+	padding: 10px 28px 10px 28px;
+	float:left;
+	}
+	
+#datos{
+	width:250px;
+	font-family:calibri;
+	font-size:14px;
+	float:left;
+	padding:10px;}
+	
+#logoaxbuss{
+	margin:10px;
+	}	
+	
+#contenido{
+	width:660px;
+	float:left;
+	font-family:calibri;
+	padding:10px;
+	text-align:justify;}
+	
+#footer{
+	width:930px;
+	font-family:calibri;
+	padding:10px;
+	text-align:center;
+	}
+
+/*codigo para letras*/	
+
+h1{
+	font-size:30px;
+	font-style:italic;
+	color:#036;}
+h2{
+	font-size:20px;
+	font-style:italic;
+	color:#036;}
+h3{
+	font-size:20px;
+	font-style:normal;
+	color:#036;}
+	
+/* codigo para clases*/	
+
+.azul_negrita{
+	font-weight:bold;
+	color:#039;
+	}
+
+/* codigo para formulario*/
+#form {
+    border:1px solid #4a92db;
+    width:450px;
+    margin:auto;
+}
+#form legend{
+    font-weight:bold;
+    font-size:20px;
+	color:#036;
+	padding:3px 8px 3px 8px;
+}
+#form ol{
+    list-style:none;
+}
+#form ol li{
+    padding-bottom:5px;
+}
+#form ol li label{
+    width:120px;
+    float:left;
+    text-align:left;
+}
+#form input[type=text] {
+    border:1px solid #CCCCCC;
+}
+#form input[type=textarea] {
+    border:1px solid #CCCCCC;
+	}
+	
+#form input.btn {
+    padding:3px;
+    color:#FFFFFF;
+    background-color:#4a92db;
+    border:1px solid #000000;
+}
